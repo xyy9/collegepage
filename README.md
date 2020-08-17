@@ -1,3 +1,3 @@
-#大学文件：xyy9-college
+#大学文件
 
 ##网络模拟（Cisco packet tracer）

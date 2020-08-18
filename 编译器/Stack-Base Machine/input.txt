@@ -1,0 +1,17 @@
+load 1
+load 2
+sub
+load 5
+mod
+
+
+load 3
+load 4
+inc
+inc
+
+load 1
+load 1
+add
+sub
+

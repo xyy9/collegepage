@@ -15,3 +15,12 @@
 
 ##### 电脑视觉原理
 > `Python`
+
+##### 物联网
+> `C`   `LinkIt 7697`
+
+> `Python`
+
+> `C#`
+
+> `Java`    `Android`

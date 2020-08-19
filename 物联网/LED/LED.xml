@@ -1,0 +1,59 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="initializes_setup" id="1" x="80" y="40">
+    <next>
+      <block type="initializes_loop" id="2">
+        <statement name="CONTENT">
+          <block type="inout_buildin_led" id="403">
+            <field name="STAT">HIGH</field>
+            <next>
+              <block type="serial_println" id="411" inline="false">
+                <value name="CONTENT">
+                  <block type="text" id="412">
+                    <field name="TEXT">LED亮起</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="delay_custom" id="424" inline="false">
+                    <value name="DELAY_TIME">
+                      <block type="math_number" id="425">
+                        <field name="NUM">1000</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="inout_buildin_led" id="438">
+                        <field name="STAT">LOW</field>
+                        <next>
+                          <block type="serial_println" id="461" inline="false">
+                            <value name="CONTENT">
+                              <block type="text" id="462">
+                                <field name="TEXT">LED熄滅</field>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="delay_custom" id="474" inline="false">
+                                <value name="DELAY_TIME">
+                                  <block type="math_number" id="475">
+                                    <field name="NUM">1000</field>
+                                  </block>
+                                </value>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+      </block>
+    </next>
+  </block>
+  <block type="initializes_setup" id="476" x="80" y="40">
+    <next>
+      <block type="initializes_loop" id="477"></block>
+    </next>
+  </block>
+</xml>

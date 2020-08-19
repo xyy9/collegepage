@@ -5,3 +5,5 @@
 `C++`   ScannerTest
 `lex & yacc`    Stack-Base Machine
 `lex & yacc`    Mini-LISP(final)
+`C++`   Grammar
+`lex`   ScientificNotation

@@ -24,3 +24,9 @@
 > `C#`
 
 > `Java`    `Android`
+
+##### 汇编MIPS
+> `MIPS`
+
+##### Pipeline
+> `C++`
